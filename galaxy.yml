@@ -1,0 +1,24 @@
+---
+
+namespace: 'ansibleguy'
+name: 'common'
+version: 1.0.0
+readme: 'README.md'
+authors:
+  - 'AnsibleGuy <guy@ansibleguy.net>'
+description: 'Ansible Collection that optimizes module-performance for common tasks'
+license:
+  - 'GPL-3.0-or-later'
+license_file: 'LICENSE.txt'
+tags:
+  - 'common'
+  - 'general'
+  - 'debian'
+  - 'copy'
+  - 'stat'
+dependencies: {}
+repository: 'https://github.com/ansibleguy/collection_common'
+documentation: 'https://common.ansibleguy.net'
+homepage: 'https://ansibleguy.net'
+issues: 'https://github.com/ansibleguy/collection_common/issues'
+build_ignore: []
