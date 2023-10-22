@@ -3,7 +3,7 @@
 [![Functional Test Status](https://badges.ansibleguy.net/common.collection.test.svg)](https://github.com/ansibleguy/collection_common/blob/latest/scripts/test.sh)
 [![Lint Test Status](https://badges.ansibleguy.net/common.collection.lint.svg)](https://github.com/ansibleguy/collection_common/blob/latest/scripts/lint.sh)
 [![Docs](https://readthedocs.org/projects/common_ansible/badge/?version=latest&style=flat)](https://common.ansibleguy.net)
-[![Ansible Galaxy](https://img.shields.io/ansible/collection/DDDD)](https://galaxy.ansible.com/ansibleguy/common)
+[![Ansible Galaxy](https://badges.ansibleguy.net/galaxy.badge.svg)](https://galaxy.ansible.com/ui/repo/published/ansibleguy/common)
 
 ----
 
