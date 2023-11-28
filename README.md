@@ -10,11 +10,11 @@
 ## Setup
 
 ```bash
-# stable/tested version:
-ansible-galaxy collection install ansibleguy.common
-
 # latest version:
 ansible-galaxy collection install git+https://github.com/ansibleguy/collection_common.git
+
+# stable/tested version:
+ansible-galaxy collection install ansibleguy.common
 
 # install to specific directory for easier development
 cd $PLAYBOOK_DIR
