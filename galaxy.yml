@@ -16,6 +16,7 @@ tags:
   - 'debian'
   - 'copy'
   - 'stat'
+  - 'tools'
 dependencies: {}
 repository: 'https://github.com/ansibleguy/collection_common'
 documentation: 'https://common.ansibleguy.net'
