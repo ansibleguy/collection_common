@@ -7,7 +7,7 @@ from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible_collections.ansibleguy.tmpl.plugins.module_utils.util import tmpl
+# from ansible_collections.ansibleguy.tmpl.plugins.module_utils.util import tmpl
 
 
 def run_module():

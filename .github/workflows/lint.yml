@@ -10,6 +10,9 @@ on:
       - '**.yml'
       - '.github/workflows/test.yml'
       - 'requirements_lint.txt'
+      - '.yamllint'
+      - '.pylintrc'
+      - '.ansible-lint.yml'
   pull_request:
     branches: [latest]
     paths:
@@ -17,6 +20,9 @@ on:
       - '**.yml'
       - '.github/workflows/test.yml'
       - 'requirements_lint.txt'
+      - '.yamllint'
+      - '.pylintrc'
+      - '.ansible-lint.yml'
 
 jobs:
   build:
@@ -31,7 +37,7 @@ jobs:
       - name: Install python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
@@ -39,11 +45,15 @@ jobs:
         shell: bash
 
       - name: Running PyLint
-        run: pylint --recursive=y .
+        run: |
+          pylint --version
+          pylint --recursive=y .
         shell: bash
 
       - name: Running YamlLint
-        run: yamllint .
+        run: |
+          yamllint --version
+          yamllint .
         shell: bash
 
       - name: Preparing collection for AnsibleLint
