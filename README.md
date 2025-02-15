@@ -1,9 +1,18 @@
 # Ansible Collection - ansibleguy.common
 
-[![Functional Test Status](https://badges.ansibleguy.net/common.collection.test.svg)](https://github.com/ansibleguy/collection_common/blob/latest/scripts/test.sh)
-[![Lint Test Status](https://badges.ansibleguy.net/common.collection.lint.svg)](https://github.com/ansibleguy/collection_common/blob/latest/scripts/lint.sh)
+[![Lint](https://github.com/ansibleguy/collection_common/actions/workflows/lint.yml/badge.svg)](https://github.com/ansibleguy/collection_common/actions/workflows/lint.yml)
 [![Docs](https://readthedocs.org/projects/common_ansible/badge/?version=latest&style=flat)](https://common.ansibleguy.net)
 [![Ansible Galaxy](https://badges.ansibleguy.net/galaxy.badge.svg)](https://galaxy.ansible.com/ui/repo/published/ansibleguy/common)
+
+**Functional Tests**: 
+
+* Status: [![Functional Test Status](https://badges.ansibleguy.net/common.collection.test.svg)](https://github.com/ansibleguy/collection_common/blob/latest/scripts/test.sh) |
+[![Functional-Tests](https://github.com/ansibleguy/collection_common/actions/workflows/functional_test_result.yml/badge.svg)](https://github.com/ansibleguy/collection_common/actions/workflows/functional_test_result.yml)
+* Logs: [API](https://ci.ansibleguy.net/api/job/ansible-test-collection-common/logs?token=2b7bba30-9a37-4b57-be8a-99e23016ce70&lines=1000) |
+[Daily Archive](https://github.com/ansibleguy/collection_common/actions/workflows/functional_test_result.yml) |
+[Short](https://badges.ansibleguy.net/log/collection_common_test_short.log) | [Full](https://badges.ansibleguy.net/log/collection_common_test.log)
+
+Internal CI: [Tester Role](https://github.com/ansibleguy/_meta_cicd) | [Jobs API](https://github.com/O-X-L/github-self-hosted-jobs-systemd)
 
 ----
 
